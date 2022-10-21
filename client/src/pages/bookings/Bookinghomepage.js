@@ -1,13 +1,14 @@
 import React from 'react'
 import './Bookings.css'
+import { Link } from 'react-router-dom'
 
 
 const Bookinghomepage = () => {
   return (
     <div className='bookings_main'>
-                <a href="vendorsfeed" className="vendor_form">Vendor's Requirement</a> 
+                <Link to="../vendorsfeed" className="vendor_form">Vendor's Requirement</Link> 
                 <br></br>
-             <a href="bookingstall" className="book_stall">Book Stall  </a>  
+             <Link to="../bookingstall" className="book_stall">Book Stall  </Link>  
      </div>
 
 
