@@ -1,0 +1,66 @@
+/* body{            
+    margin-left: 30%;
+    height: 500px;
+    width: 400px;
+    position: relative;            
+} */
+.backimg1{
+    padding-left: 80px;
+    opacity: 30%;
+    position: absolute;
+    margin-top: 220px;
+}
+
+.backimg2{
+    padding-left: 80px;
+    opacity: 30%;
+    position: absolute;
+    margin-top: 500px;
+}
+.logo{
+    margin-left: 80px;
+}
+
+.invoice-box{
+   /* text-align: center;*/
+    padding-left: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    font-weight:normal
+
+}
+.title{
+    margin-left: 60px;
+}
+.invoice-box table{
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+.invoice-box table td{
+    padding: 5px;
+    vertical-align: top;
+}
+.invoice-box table tr td:nth-child(2)
+{
+    text-align: right;
+}
+/* .invoice-box table tr.top table td
+{
+    padding-bottom: 20px;
+} */
+/*.invoice-box table tr.information table td
+{
+    padding-bottom: 40px;
+}*/
+.invoice-box table tr.heading td{
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+.thanks{
+    text-align: center;
+}
