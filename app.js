@@ -23,6 +23,7 @@ app.use('/', router);
 app.use(express.static('client/build'));
 router.use(cors());
 const moment = require('moment')
+const path = require('path')
 
 
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true , useUnifiedTopology: true} , console.log("connected to db"));
